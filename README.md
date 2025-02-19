@@ -5,6 +5,11 @@ Integrating IoT sensors and ERP systems, this API processes real-time data to de
 
 ---
 
+## 🔗 Live API
+**Base URL:** [https://predictive-maintenance-api.up.railway.app/](https://predictive-maintenance-api.up.railway.app/)
+
+---
+
 ## ✨ Key Features  
 
 ✅ **Real-Time Monitoring** – Collect and analyze sensor data, including temperature, vibration, and energy consumption.  
@@ -44,10 +49,10 @@ pip install -r requirements.txt
 ### 4️⃣ Run the API  
 
 ```bash
-uvicorn api-diagnostico-preventivo:app --reload
+uvicorn PredictiveX:app --host 0.0.0.0 --port 8000
 ```
 
-The API will be available at: `predictive-maintenance-api.up.railway.app`  
+The API will be available at: `http://127.0.0.1:8000`  
 
 ---
 
@@ -140,6 +145,16 @@ To use this API, include an **API Key** in the request headers:
 
 ---
 
+## 📡 Testing the API Online  
+
+You can test the API directly on your hosted endpoint using **Postman** or **cURL**:  
+
+```bash
+curl -X GET "https://predictive-maintenance-api.up.railway.app/equipamento/123/relatorio" -H "x-api-key: your-api-key-here"
+```
+
+---
+
 ## 🚀 Business Benefits  
 
 🔹 **Lower maintenance costs** – Reduce unplanned downtime and avoid costly repairs.  
@@ -155,4 +170,3 @@ To use this API, include an **API Key** in the request headers:
 
 Have questions or need support? Feel free to reach out!  
 
----
