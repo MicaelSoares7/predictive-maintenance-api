@@ -23,7 +23,7 @@ To run this API locally, follow these steps:
 ### 1️⃣ Clone this repository  
 
 ```bash
-git clone https://github.com/your-repo-name/predictive-maintenance-api.git
+git clone https://github.com/MicaelSoares7/predictive-maintenance-api.git
 cd predictive-maintenance-api
 ```
 
