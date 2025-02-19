@@ -1,1 +1,1 @@
-web: uvicorn PredictiveX.py:app --host 0.0.0.0 --port $PORT
+web: uvicorn PredictiveX:app --host 0.0.0.0 --port $PORT
